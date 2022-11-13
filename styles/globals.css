@@ -24,3 +24,158 @@ a {
     background: black;
   }
 }
+
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cursed Timer ULiL"),
+    url("https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff")
+      format("woff");
+}
+
+body {
+  margin: 0;
+  color: #eeee;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  margin-top: 10%;
+
+  justify-content: space-between;
+  /* empty-state */
+  position: relative;
+  width: 575px;
+  height: 385px;
+  border-radius: 10px;
+  background: #1b244a;
+  border: 4px solid white;
+}
+
+.board-home {
+  /* board-title-home */
+  margin: 50px 60px 0px 60px;
+
+  position: relative;
+  width: 149px;
+  height: 36px;
+
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  /* identical to box height, or 90% */
+
+  text-align: center;
+
+  color: #eeeeee;
+}
+
+.score-background {
+  /* background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 155px;
+  height: 120px;
+  left: 60px;
+  top: 20px;
+
+  background: #080001;
+  border-radius: 5px;
+}
+
+.points {
+  position: relative;
+  width: 117px;
+  height: 120px;
+  margin-right: 10px;
+  right: 21px;
+
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #f94f6d;
+}
+
+.points-container {
+  display: flex;
+  position: relative;
+  margin: 40px 0px 40px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-points {
+  /* Rectangle 4 */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px 5px 0px 5px;
+  padding: 8px;
+  left: 2px;
+  border: none;
+  background: none;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.plus-points:hover {
+  cursor: pointer;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 30px 5px 30px 5px;
+  padding: 10px;
+  left: 60px;
+  top: -30px;
+  border: none;
+  background: none;
+  position: relative;
+  width: 125px;
+  height: 50px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.reset:hover {
+  cursor: pointer;
+}
