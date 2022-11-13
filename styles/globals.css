@@ -138,7 +138,11 @@ body {
   /* or 155% */
 
   text-align: center;
-
+  text-shadow: 
+  0 0 #000, 
+  0 28px #1095c1;
+overflow: hidden;
+transition: .3s;
   color: black;
 
   border: 2px solid black;
@@ -147,6 +151,9 @@ body {
 
 .plus-points:hover {
   cursor: pointer;
+  text-shadow: 
+  0 -28px #000, 
+  0 0 #1095c1;
 }
 
 .reset {
@@ -168,7 +175,11 @@ body {
   font-size: 18px;
   line-height: 28px;
   /* or 155% */
-
+  text-shadow: 
+  0 0 #000, 
+  0 38px #1095c1;
+overflow: hidden;
+transition: .3s;
   text-align: center;
 
   color: black;
@@ -178,4 +189,7 @@ body {
 }
 .reset:hover {
   cursor: pointer;
+  text-shadow: 
+  0 -30px #000, 
+  0 0 #1095c1;
 }
