@@ -187,21 +187,37 @@ body {
 }
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
+  .app {
+    width: 100%;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   [class*="col-"] {
     width: 100%;
   }
 
   [class*="right"] {
-    width: 100%;
-    display:grid;
+    max-width: 100%;
+    display: grid;
     position: relative;
-    margin-bottom:0;
+
+    margin-bottom: 0;
     right: 10%;
   }
 
-  .reset{
+  .reset {
     position: relative;
-    display:flex;
-    margin-top:0px;
-   }
+    display: flex;
+    margin-top: 0px;
+  }
 }
