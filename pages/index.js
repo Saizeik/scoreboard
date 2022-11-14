@@ -129,7 +129,8 @@ const resetButton = () => {
 export default function Home() {
   return (
     <div id="app">
-      <div class="container" data-hue="200">
+      <div class="row">
+      <div class="container col-3 col-s-12" data-hue="200">
         <div>
           <h3 class="board-home">HOME</h3>
           <div class="score-background">
@@ -171,6 +172,7 @@ export default function Home() {
             Reset
           </button>
         </div>
+      </div>
       </div>
     </div>
   );
