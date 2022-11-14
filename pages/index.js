@@ -167,10 +167,14 @@ export default function Home() {
             <button class="plus-points" onClick={() => guestPlusThree()}>
               +3
             </button>
+            
+            
+         
           </div>
           <button class="reset" onClick={() => resetButton()}>
             Reset
           </button>
+          
         </div>
       </div>
       </div>
