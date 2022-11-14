@@ -138,11 +138,9 @@ body {
   /* or 155% */
 
   text-align: center;
-  text-shadow: 
-  0 0 #000, 
-  0 28px #1095c1;
-overflow: hidden;
-transition: .3s;
+  text-shadow: 0 0 #000, 0 28px #1095c1;
+  overflow: hidden;
+  transition: 0.3s;
   color: black;
 
   border: 2px solid black;
@@ -151,9 +149,7 @@ transition: .3s;
 
 .plus-points:hover {
   cursor: pointer;
-  text-shadow: 
-  0 -28px #000, 
-  0 0 #1095c1;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
 }
 
 .reset {
@@ -175,11 +171,9 @@ transition: .3s;
   font-size: 18px;
   line-height: 28px;
   /* or 155% */
-  text-shadow: 
-  0 0 #000, 
-  0 38px #1095c1;
-overflow: hidden;
-transition: .3s;
+  text-shadow: 0 0 #000, 0 38px #1095c1;
+  overflow: hidden;
+  transition: 0.3s;
   text-align: center;
 
   color: black;
@@ -189,13 +183,17 @@ transition: .3s;
 }
 .reset:hover {
   cursor: pointer;
-  text-shadow: 
-  0 -30px #000, 
-  0 0 #1095c1;
+  text-shadow: 0 -30px #000, 0 0 #1095c1;
 }
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  [class*="right"] {
+    width: 100%;
+    position: relative;
+    right: 10%;
+  }
 }

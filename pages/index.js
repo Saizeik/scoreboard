@@ -150,7 +150,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div>
+        <div class ="right">
           <h3 class="board-home">GUEST</h3>
           <div class="score-background">
             <span class="points" id="guest-points">
