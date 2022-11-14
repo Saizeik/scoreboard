@@ -386,7 +386,7 @@ body {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 915px){
+@media only screen and (max-width:600px){
   /* For mobile phones: */
 
 
@@ -461,23 +461,24 @@ body {
   }
  
 
+
   [class*="left"] {
-    
+    max-width: 100%;
 
     position: relative;
-    justify-content: flex-start;
-    right: 6%;
+    justify-content: left;
+    right: 10%;
 
     margin-bottom: 0;
   }
 
   [class*="right"] {
-  
-    justify-content: flex-end;
+    max-width: 100%;
+    justify-content: left;
     position: relative;
 
     margin-bottom: 0;
-    right: 28%;
+    right: 32.5%;
   }
 
   .reset-container {
@@ -489,7 +490,7 @@ body {
     right: 5%;
   }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1100px){
   /* For mobile phones: */
 
 
@@ -513,3 +514,6 @@ body {
   }
 
 }
+
+
+
