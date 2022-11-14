@@ -386,7 +386,7 @@ body {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 915px) {
   /* For mobile phones: */
 
   .app {
@@ -411,6 +411,7 @@ body {
   }
 
   .board-home {
+    max-width: 80%;
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -489,4 +490,29 @@ body {
     margin-top: 0px;
     right: 5%;
   }
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+
+
+  [class*="left"] {
+    max-width: 100%;
+
+    position: relative;
+    justify-content: left;
+    right: 10%;
+
+    margin-bottom: 0;
+  }
+
+  [class*="right"] {
+    max-width: 100%;
+    justify-content: left;
+    position: relative;
+
+    margin-bottom: 0;
+    right: 32.5%;
+  }
+
+  
 }
