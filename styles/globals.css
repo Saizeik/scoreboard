@@ -476,7 +476,7 @@ body {
     left:4px;
   }
 }
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 610px) and(orientation:landscape) {
   .points-container-home{
     max-width: 100%;
     position: relative;
