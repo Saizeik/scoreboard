@@ -305,33 +305,33 @@ body {
   border-radius: 5px;
 }
 
-.plus-points-home-1:focus {
+.plus-points-home-1:hover {
   cursor: pointer;
   text-shadow: 0 -28px #000, 0 0 #1095c1;
 }
-.plus-points-home-2:focus {
+.plus-points-home-2:hover {
   cursor: pointer;
   text-shadow: 0 -28px #000, 0 0 #1095c1;
 }
-.plus-points-home-3:focus {
-  cursor: pointer;
-  text-shadow: 0 -28px #000, 0 0 #1095c1;
-}
-
-.plus-points-guest-1:focus {
-  cursor: pointer;
-  text-shadow: 0 -28px #000, 0 0 #1095c1;
-}
-.plus-points-guest-2:focus {
+.plus-points-home-3:hover {
   cursor: pointer;
   text-shadow: 0 -28px #000, 0 0 #1095c1;
 }
 
-.plus-points-guest-3:focus {
+.plus-points-guest-1:hover {
   cursor: pointer;
   text-shadow: 0 -28px #000, 0 0 #1095c1;
 }
-.reset:focus {
+.plus-points-guest-2:hover {
+  cursor: pointer;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+
+.plus-points-guest-3:hover {
+  cursor: pointer;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+.reset:hover {
   cursor: pointer;
   text-shadow: 0 -38px #000, 0 0 #1095c1;
 }
@@ -383,7 +383,8 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     position: absolute;
     top: 0;
     left: 0;
