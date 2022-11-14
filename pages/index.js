@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 
 let mouseX = 0;
 let mouseY = 0;
@@ -130,53 +131,73 @@ export default function Home() {
   return (
     <div id="app">
       <div class="row">
-      <div class="container col-3 col-s-12" data-hue="200">
-        <div>
-          <h3 class="board-home">HOME</h3>
-          <div class="score-background">
-            <span class="points" id="home-points">
-              0
-            </span>
+        <div class="container" data-hue="200">
+          <div class="left col-3 col-s-12">
+            <h3 class="animate__animated animate__rubberBand board-home">
+              HOME
+            </h3>
+            <div class="animate__animated animate__tada score-background">
+              <span
+                class="animate__animated animate__flash points"
+                id="home-points"
+              >
+                0
+              </span>
+            </div>
+            <div class=" animate__animated animate__fadeInLeft points-container-home">
+              <button class="plus-points-home-1" onClick={() => homePlusOne()}>
+                +!
+              </button>
+              <button class="plus-points-home-2" onClick={() => homePlusTwo()}>
+                +2
+              </button>
+              <button
+                class="plus-points-home-3"
+                onClick={() => homePlusThree()}
+              >
+                +3
+              </button>
+            </div>
           </div>
-          <div class="points-container">
-            <button class="plus-points" onClick={() => homePlusOne()}>
-              +!
-            </button>
-            <button class="plus-points" onClick={() => homePlusTwo()}>
-              +2
-            </button>
-            <button class="plus-points" onClick={() => homePlusThree()}>
-              +3
-            </button>
+          <div class="right col-3 col-s-12">
+            <h3 class="animate__animated animate__rubberBand board-home">
+              GUEST
+            </h3>
+            <div class="animate__animated animate__tada score-background">
+              <span
+                class=" animate__animated animate__flash  points"
+                id="guest-points"
+              >
+                0
+              </span>
+            </div>
+            <div class="animate__animated animate__fadeInRight points-container-guest">
+              <button
+                class="plus-points-guest-1"
+                onClick={() => guestPlusOne()}
+              >
+                +!
+              </button>
+              <button
+                class="plus-points-guest-2"
+                onClick={() => guestPlusTwo()}
+              >
+                +2
+              </button>
+              <button
+                class="plus-points-guest-3"
+                onClick={() => guestPlusThree()}
+              >
+                +3
+              </button>
+            </div>
+            <div class="animate__animated  animate__flip reset-container">
+              <button class="reset" onClick={() => resetButton()}>
+                Reset
+              </button>
+            </div>
           </div>
         </div>
-        <div class ="right">
-          <h3 class="board-home">GUEST</h3>
-          <div class="score-background">
-            <span class="points" id="guest-points">
-              0
-            </span>
-          </div>
-          <div class="points-container">
-            <button class="plus-points" onClick={() => guestPlusOne()}>
-              +!
-            </button>
-            <button class="plus-points" onClick={() => guestPlusTwo()}>
-              +2
-            </button>
-            <button class="plus-points" onClick={() => guestPlusThree()}>
-              +3
-            </button>
-            
-            
-         
-          </div>
-          <button class="reset" onClick={() => resetButton()}>
-            Reset
-          </button>
-          
-        </div>
-      </div>
       </div>
     </div>
   );

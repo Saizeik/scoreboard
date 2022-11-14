@@ -50,7 +50,7 @@ body {
   width: 575px;
   height: 385px;
   border-radius: 10px;
-  background: #1b244a;
+  background: #ff5733;
   border: 4px solid white;
 }
 
@@ -109,7 +109,7 @@ body {
   color: #f94f6d;
 }
 
-.points-container {
+.points-container-home {
   display: flex;
   position: relative;
   margin: 40px 0px 40px 0px;
@@ -117,7 +117,15 @@ body {
   align-items: center;
 }
 
-.plus-points {
+.points-container-guest {
+  display: flex;
+  position: relative;
+  margin: 40px 0px 40px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-points-home-1 {
   /* Rectangle 4 */
   display: flex;
   justify-content: center;
@@ -147,9 +155,185 @@ body {
   border-radius: 5px;
 }
 
-.plus-points:hover {
+.plus-points-home-2 {
+  /* Rectangle 4 */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px 5px 0px 5px;
+  padding: 8px;
+  left: 2px;
+  border: none;
+  background: none;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+  text-shadow: 0 0 #000, 0 28px #1095c1;
+  overflow: hidden;
+  transition: 0.3s;
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.plus-points-home-3 {
+  /* Rectangle 4 */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px 5px 0px 5px;
+  padding: 8px;
+  left: 2px;
+  border: none;
+  background: none;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+  text-shadow: 0 0 #000, 0 28px #1095c1;
+  overflow: hidden;
+  transition: 0.3s;
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.plus-points-guest-1 {
+  /* Rectangle 4 */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px 5px 0px 5px;
+  padding: 8px;
+  left: 2px;
+  border: none;
+  background: none;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+  text-shadow: 0 0 #000, 0 28px #1095c1;
+  overflow: hidden;
+  transition: 0.3s;
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.plus-points-guest-2 {
+  /* Rectangle 4 */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px 5px 0px 5px;
+  padding: 8px;
+  left: 2px;
+  border: none;
+  background: none;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+  text-shadow: 0 0 #000, 0 28px #1095c1;
+  overflow: hidden;
+  transition: 0.3s;
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.plus-points-guest-3 {
+  /* Rectangle 4 */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px 5px 0px 5px;
+  padding: 8px;
+  left: 2px;
+  border: none;
+  background: none;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+  text-shadow: 0 0 #000, 0 28px #1095c1;
+  overflow: hidden;
+  transition: 0.3s;
+  color: black;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.plus-points-home-1:focus {
   cursor: pointer;
   text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+.plus-points-home-2:focus {
+  cursor: pointer;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+.plus-points-home-3:focus {
+  cursor: pointer;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+
+.plus-points-guest-1:focus {
+  cursor: pointer;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+.plus-points-guest-2:focus {
+  cursor: pointer;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+
+.plus-points-guest-3:focus {
+  cursor: pointer;
+  text-shadow: 0 -28px #000, 0 0 #1095c1;
+}
+.reset:focus {
+  cursor: pointer;
+  text-shadow: 0 -38px #000, 0 0 #1095c1;
 }
 
 .reset {
@@ -181,14 +365,17 @@ body {
   border: 2px solid black;
   border-radius: 5px;
 }
-.reset:hover {
-  cursor: pointer;
-  text-shadow: 0 -30px #000, 0 0 #1095c1;
-}
+
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
+
   .app {
-    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+  .container {
+    max-width: 100%;
+    height: 100%;
   }
 
   html,
@@ -206,18 +393,74 @@ body {
     width: 100%;
   }
 
-  [class*="right"] {
+  .board-home {
+    max-width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    right: 8%;
+  }
+
+  .score-background {
+    position: relative;
+    display: flex;
+    left: 10%;
+  }
+  .points-container-home {
+    max-width: 80%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    right: 2%;
+  }
+
+  .points-container-guest {
+    max-width: 80%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    left: 2.5%;
+  }
+
+  .plus-points {
+    max-width: 60%;
+  }
+  .points {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 10%;
+    margin-right: 0px;
+    right: 0px;
+
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 127px;
+  }
+
+  [class*="left"] {
     max-width: 100%;
-    display: grid;
+
     position: relative;
 
     margin-bottom: 0;
-    right: 10%;
   }
 
-  .reset {
+  [class*="right"] {
+    max-width: 60%;
+    justify-content: left;
+    position: relative;
+
+    margin-bottom: 0;
+    right: 25%;
+  }
+
+  .reset-container {
+    max-width: 60%;
     position: relative;
     display: flex;
+    justify-content: center;
     margin-top: 0px;
+    right: 20%;
   }
 }
