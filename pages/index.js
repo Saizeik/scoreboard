@@ -132,7 +132,7 @@ export default function Home() {
     <div id="app">
       <div class="row">
         <div class="container" data-hue="200">
-          <div class="left col-3 col-s-12">
+          <div class="left">
             <h3 class="animate__animated animate__rubberBand board-home">
               HOME
             </h3>
@@ -159,8 +159,8 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div class="right col-3 col-s-12">
-            <h3 class="animate__animated animate__rubberBand board-home">
+          <div class="right">
+            <h3 class="animate__animated animate__rubberBand board-guest">
               GUEST
             </h3>
             <div class="animate__animated animate__tada score-background">

@@ -74,6 +74,26 @@ body {
   color: #eeeeee;
 }
 
+.board-guest {
+  /* board-title-home */
+  margin: 50px 60px 0px 60px;
+
+  position: relative;
+  width: 149px;
+  height: 36px;
+
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  /* identical to box height, or 90% */
+
+  text-align: center;
+
+  color: #eeeeee;
+}
+
 .score-background {
   /* background */
   display: flex;
@@ -390,29 +410,32 @@ body {
     left: 0;
   }
 
-  [class*="col-"] {
-    width: 100%;
-  }
-
   .board-home {
-    max-width: 50%;
     position: relative;
     display: flex;
-    justify-content: center;
-    right: 8%;
+    justify-content: flex-start;
+    left: 3.5%;
+  }
+
+  .board-guest {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    left: 1.5%;
   }
 
   .score-background {
+    max-width: 100%;
     position: relative;
     display: flex;
-    left: 10%;
+    justify-content: center;
   }
   .points-container-home {
     max-width: 80%;
     position: relative;
     justify-content: center;
     display: flex;
-    right: 2%;
+    left: 10%;
   }
 
   .points-container-guest {
@@ -420,7 +443,7 @@ body {
     position: relative;
     justify-content: center;
     display: flex;
-    left: 2.5%;
+    left: 10%;
   }
 
   .plus-points {
@@ -443,17 +466,19 @@ body {
     max-width: 100%;
 
     position: relative;
+    justify-content: left;
+    right: 6%;
 
     margin-bottom: 0;
   }
 
   [class*="right"] {
-    max-width: 60%;
+    max-width: 100%;
     justify-content: left;
     position: relative;
 
     margin-bottom: 0;
-    right: 25%;
+    right: 28%;
   }
 
   .reset-container {
@@ -462,6 +487,6 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    right: 20%;
+    right: 5%;
   }
 }
