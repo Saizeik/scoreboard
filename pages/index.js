@@ -130,9 +130,10 @@ const resetButton = () => {
 export default function Home() {
   return (
     <div id="app">
-      <div class="row">
-        <div class="container" data-hue="200">
-          <div class="left">
+      
+        <div class="container col-xl-6 col-xs-12" data-hue="200">
+        <div class="row justify-content-center">
+          <div class="left col-xl-6 col-xs-12">
             <h3 class="animate__animated animate__rubberBand board-home">
               HOME
             </h3>
@@ -160,7 +161,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="right">
+          <div class="right col-xl-6 col-xs-12">
             <h3 class="animate__animated animate__rubberBand board-guest">
               GUEST
             </h3>
