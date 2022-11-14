@@ -159,6 +159,7 @@ export default function Home() {
               </button>
             </div>
           </div>
+
           <div class="right">
             <h3 class="animate__animated animate__rubberBand board-guest">
               GUEST
