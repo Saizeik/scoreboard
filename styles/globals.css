@@ -487,22 +487,3 @@ body {
     right: 5%;
   }
 }
-@media only screen and (max-width: 767px) {
-  /* For mobile phones: */
-
-  [class*="left"] {
-    position: relative;
-    justify-content: flex-start;
-    right: 6%;
-
-    margin-bottom: 0;
-  }
-
-  [class*="right"] {
-    justify-content: flex-end;
-    position: relative;
-
-    margin-bottom: 0;
-    right: 28%;
-  }
-}
