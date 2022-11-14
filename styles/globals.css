@@ -135,7 +135,7 @@ body {
   margin: 40px 0px 40px 0px;
   justify-content: center;
   align-items: center;
-  left: 1%;
+  
 }
 
 .points-container-guest {
@@ -144,7 +144,7 @@ body {
   margin: 40px 0px 40px 0px;
   justify-content: center;
   align-items: center;
-  left: 1%;
+  
 }
 
 .plus-points-home-1 {
@@ -474,5 +474,24 @@ body {
     margin-top: 0px;
     top:-15px;
     left:4px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .points-container-home{
+    max-width: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+   
+    left:17%;
+  }
+
+  .points-container-guest{
+    max-width: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+   
+    left:17%;
   }
 }

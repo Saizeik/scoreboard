@@ -131,9 +131,9 @@ export default function Home() {
   return (
     <div id="app">
       
-        <div class="container col-xl-6 col-xs-12" data-hue="200">
-        <div class="row justify-content-center">
-          <div class="left col-xl-6 col-xs-12">
+        <div class="container col-lg-8 col-xs-12" data-hue="200">
+        <div class="row justify-content-center col-sm-12">
+          <div class="left col-md-4 col-xs-12">
             <h3 class="animate__animated animate__rubberBand board-home">
               HOME
             </h3>
@@ -161,7 +161,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="right col-xl-6 col-xs-12">
+          <div class="right col-md-4 col-xs-12">
             <h3 class="animate__animated animate__rubberBand board-guest">
               GUEST
             </h3>
